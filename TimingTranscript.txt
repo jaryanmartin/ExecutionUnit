@@ -1,0 +1,230 @@
+# transcript.txt
+# vcom -work work -2008 -explicit -stats=none U:/350/dpremake/Simulation/TBadder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBAdder
+# -- Compiling architecture Behaviour of TBAdder
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none U:/350/dpremake/Simulation/questa/Ripple.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# 
+# 
+# 2 compiles, 0 failed with no errors.
+vsim -gui -sdftyp /dut=U:/350/dpremake/Simulation/questa/Ripple.sdo work.tbadder
+# End time: 21:35:03 on Dec 01,2024, Elapsed time: 0:02:06
+# Errors: 96, Warnings: 9
+# vsim -gui -sdftyp "/dut=U:/350/dpremake/Simulation/questa/Ripple.sdo" work.tbadder 
+# Start time: 21:35:03 on Dec 01,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbadder(behaviour)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.adder(structure)
+# ** Warning: (vsim-8713) Suspect default binding for component instance 'DUT'.
+# Entity has no generics at all; the component has generic:
+#           N
+#    Time: 0 ps  Iteration: 0  Instance: /tbadder/DUT File: U:/350/dpremake/Simulation/TBadder.vhd Line: 42
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from U:/350/dpremake/Simulation/questa/Ripple.sdo
+# Loading timing data from U:/350/dpremake/Simulation/questa/Ripple.sdo
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: Design size of 18455 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbadder File: U:/350/dpremake/Simulation/TBadder.vhd
+add wave sim:/tbadder/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dumurali  Hostname: ENSC-10879-06  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlft0r8mnm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0r8mnm
+run
+# ** Note: dudes ... I'm hereTestVectors/Adder00.tvs
+#    Time: 0 ps  Iteration: 0  Instance: /tbadder
+add wave sim:/tbadder/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dumurali  Hostname: ENSC-10879-06  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlft433vd7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft433vd7
+# ** Note: All tests completed. Total vectors: 100
+#    Time: 111200 ns  Iteration: 0  Instance: /tbadder
+# vcom -work work -2008 -explicit -stats=none U:/350/dpremake/Simulation/TBadder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBAdder
+# -- Compiling architecture Behaviour of TBAdder
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none U:/350/dpremake/Simulation/questa/Ripple.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# 
+# 
+# 2 compiles, 0 failed with no errors.
+vsim -gui -sdftyp /dut=U:/350/dpremake/Simulation/questa/CSA.sdo work.tbadder
+# End time: 21:35:03 on Dec 01,2024, Elapsed time: 0:02:06
+# Errors: 96, Warnings: 9
+# vsim -gui -sdftyp "/dut=U:/350/dpremake/Simulation/questa/CSA.sdo" work.tbadder 
+# Start time: 21:35:03 on Dec 01,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbadder(behaviour)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.adder(structure)
+# ** Warning: (vsim-8713) Suspect default binding for component instance 'DUT'.
+# Entity has no generics at all; the component has generic:
+#           N
+#    Time: 0 ps  Iteration: 0  Instance: /tbadder/DUT File: U:/350/dpremake/Simulation/TBadder.vhd Line: 42
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from U:/350/dpremake/Simulation/questa/CSA.sdo
+# Loading timing data from U:/350/dpremake/Simulation/questa/CSA.sdo
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: Design size of 18455 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbadder File: U:/350/dpremake/Simulation/TBadder.vhd
+add wave sim:/tbadder/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dumurali  Hostname: ENSC-10879-06  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlft0r8mnm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0r8mnm
+run
+# ** Note: dudes ... I'm hereTestVectors/Adder00.tvs
+#    Time: 0 ps  Iteration: 0  Instance: /tbadder
+add wave sim:/tbadder/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dumurali  Hostname: ENSC-10879-06  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlft433vd7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft433vd7
+# ** Note: All tests completed. Total vectors: 100
+#    Time: 111200 ns  Iteration: 0  Instance: /tbadder
+# vcom -work work -2008 -explicit -stats=none U:/350/dpremake/Simulation/TBadder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBAdder
+# -- Compiling architecture Behaviour of TBAdder
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none U:/350/dpremake/Simulation/questa/CSA.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Compiling entity Adder
+# -- Compiling architecture structure of Adder
+# 
+# 
+# 2 compiles, 0 failed with no errors.
+vsim -gui -sdftyp /dut=U:/350/dpremake/Simulation/questa/FLA.sdo work.tbadder
+# End time: 21:35:03 on Dec 01,2024, Elapsed time: 0:02:06
+# Errors: 96, Warnings: 9
+# vsim -gui -sdftyp "/dut=U:/350/dpremake/Simulation/questa/FLA.sdo" work.tbadder 
+# Start time: 21:35:03 on Dec 01,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbadder(behaviour)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.adder(structure)
+# ** Warning: (vsim-8713) Suspect default binding for component instance 'DUT'.
+# Entity has no generics at all; the component has generic:
+#           N
+#    Time: 0 ps  Iteration: 0  Instance: /tbadder/DUT File: U:/350/dpremake/Simulation/TBadder.vhd Line: 42
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from U:/350/dpremake/Simulation/questa/FLA.sdo
+# Loading timing data from U:/350/dpremake/Simulation/questa/FLA.sdo
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: Design size of 18455 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tbadder File: U:/350/dpremake/Simulation/TBadder.vhd
+add wave sim:/tbadder/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dumurali  Hostname: ENSC-10879-06  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlft0r8mnm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0r8mnm
+run
+# ** Note: dudes ... I'm hereTestVectors/Adder00.tvs
+#    Time: 0 ps  Iteration: 0  Instance: /tbadder
+add wave sim:/tbadder/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: dumurali  Hostname: ENSC-10879-06  ProcessID: 10852
+#           Attempting to use alternate WLF file "./wlft433vd7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft433vd7
+# ** Note: All tests completed. Total vectors: 100
+#    Time: 111200 ns  Iteration: 0  Instance: /tbadder
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

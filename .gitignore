@@ -1,0 +1,11 @@
+# Simulation and build artifacts
+*.wlf
+*.vcd
+*.log
+*.jou
+*.bak
+*.tmp
+
+# Tool-generated directories
+work/
+simulation/
